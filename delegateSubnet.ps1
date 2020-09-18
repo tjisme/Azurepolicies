@@ -1,10 +1,8 @@
-﻿$parameters = $args[0]
-
-$subscriptionId = $parameters['subscriptionId']
-$resourceGroupName = $parameters['resourceGroupName']
-$virtualNetworkName = $parameters['virtualNetworkName']
-$subnetName = $parameters['subnetName']
-$force =  $parameters['force']
+﻿$subscriptionId = 'e7e9799d-9855-46e0-80c1-832144d1d7d1'
+$resourceGroupName = 'rg0305ProdWanWE01'
+$virtualNetworkName = 'vnet0305ProdWanWE01'
+$subnetName = 'snet0305ProdSQLManagedInstanceWE01'
+$force =  'force'
 
 $NSnetworkModels = "Microsoft.Azure.Commands.Network.Models"
 $NScollections = "System.Collections.Generic"
